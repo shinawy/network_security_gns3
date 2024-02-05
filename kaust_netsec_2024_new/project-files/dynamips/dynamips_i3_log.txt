@@ -1,0 +1,14 @@
+Jan 30 11:16:32.782 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 30 11:16:32.782 HYPERVISOR: Started on IP = localhost, TCP port = 38823.
+Jan 30 11:16:32.792 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 30 11:16:32.793 HYPERVISOR: exec_cmd: hypervisor working_dir /home/gns3_user/GNS3/projects/kaust_netsec_2024_new/project-files/dynamips 
+Jan 30 11:16:32.793 GENERAL: working_dir=/home/gns3_user/GNS3/projects/kaust_netsec_2024_new/project-files/dynamips
+Jan 30 11:16:32.793 HYPERVISOR: exec_cmd: nio_bridge create Hub3 
+Jan 30 11:16:33.144 HYPERVISOR: exec_cmd: nio create_udp udp-502f7e55-aa46-48b9-b846-767bbd6d5923 10016 127.0.0.1 10017 
+Jan 30 11:16:33.144 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-502f7e55-aa46-48b9-b846-767bbd6d5923 
+Jan 30 11:16:33.198 HYPERVISOR: exec_cmd: nio create_udp udp-3a63b84f-5418-4766-a622-538520db2d31 10019 127.0.0.1 10018 
+Jan 30 11:16:33.198 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-3a63b84f-5418-4766-a622-538520db2d31 
+Jan 30 11:16:33.223 HYPERVISOR: exec_cmd: nio create_udp udp-f16c7678-0d79-4644-9521-058f3c14f88d 10020 127.0.0.1 10021 
+Jan 30 11:16:33.223 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-f16c7678-0d79-4644-9521-058f3c14f88d 
+Jan 30 11:16:33.279 HYPERVISOR: exec_cmd: nio create_udp udp-a226f23a-15fa-4154-a0a9-f8a9031822cc 10023 127.0.0.1 10022 
+Jan 30 11:16:33.279 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-a226f23a-15fa-4154-a0a9-f8a9031822cc 

@@ -1,0 +1,20 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# eth0 is to be used within the extranet.net network (192.168.122.0/24)
+auto eth0
+iface eth0 inet dhcp
+
+# eth1 is to be used within the dmz.net network (10.10.10.0/24)
+auto eth1
+iface eth1 inet dhcp
+
+# eth2 is to be used within the intranet.net network (20.20.20.0/24)
+auto eth2
+iface eth2 inet dhcp
+
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
