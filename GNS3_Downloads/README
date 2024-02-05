@@ -1,0 +1,4 @@
+This directory contains "portable project" in the GNS3 jargon. They
+represent network topologies and most of them can simply be imported
+as is but if some appliances are missing, they could fail to launch
+
