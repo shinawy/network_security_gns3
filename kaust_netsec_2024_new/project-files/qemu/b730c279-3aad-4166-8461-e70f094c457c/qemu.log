@@ -1,5 +1,5 @@
-Start QEMU with /usr/bin/qemu-system-i386 -name 'Firefox31.1.1~2-1' -m 256M -smp cpus=1,sockets=1 -boot order=c -drive file=/home/gns3_user/GNS3/projects/kaust_netsec_2024_new/project-files/qemu/b730c279-3aad-4166-8461-e70f094c457c/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid b730c279-3aad-4166-8461-e70f094c457c -vnc localhost:0 -monitor tcp:127.0.0.1:37233,server,nowait -net none -device e1000,mac=0c:a6:c4:34:b1:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10025,localaddr=127.0.0.1:10024 -vga std -usbdevice tablet
+Start QEMU with /usr/bin/qemu-system-i386 -name 'Firefox31.1.1~2-1' -m 256M -smp cpus=1,sockets=1 -enable-kvm -boot order=c -drive 'file=/home/maco/code/Kaust/Spring 2024/Applied Network Security/network_security_gns3/kaust_netsec_2024_new/project-files/qemu/b730c279-3aad-4166-8461-e70f094c457c/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0' -uuid b730c279-3aad-4166-8461-e70f094c457c -vnc localhost:0 -monitor tcp:127.0.0.1:34039,server,nowait -net none -device e1000,mac=0c:a6:c4:34:b1:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10033,localaddr=127.0.0.1:10032 -vga std -usbdevice tablet -machine usb=on -device usb-tablet
 
 Execution log:
 qemu-system-i386: -usbdevice tablet: '-usbdevice' is deprecated, please use '-device usb-...' instead
-qemu-system-i386: terminating on signal 15 from pid 31240 (/usr/share/gns3/gns3-server/bin/python)
+qemu-system-i386: terminating on signal 15 from pid 6711 (/usr/share/gns3/gns3-server/bin/python)

@@ -1,0 +1,12 @@
+755:0:0:/etc/network/if-post-down.d/mptcp_down
+775:1000:1000:/etc/network/if-post-down.d
+775:1000:1000:/etc/network/if-pre-up.d
+664:1000:1000:/etc/network/.gns3_perms
+775:1000:1000:/etc/network/interfaces.d
+755:0:0:/etc/network/if-down.d/mptcp_down
+775:1000:1000:/etc/network/if-down.d
+755:0:0:/etc/network/if-up.d/mptcp_up
+775:1000:1000:/etc/network/if-up.d
+644:0:0:/etc/network/if_up_env
+664:1000:1000:/etc/network/interfaces
+775:1000:1000:/etc/network

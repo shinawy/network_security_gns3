@@ -8,6 +8,7 @@ dnsmasq
 drill
 e2fsprogs-extra
 emacs
+git
 iproute2
 iptables
 iputils
