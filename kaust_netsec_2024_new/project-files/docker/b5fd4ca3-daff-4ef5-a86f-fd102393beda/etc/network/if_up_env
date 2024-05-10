@@ -1,0 +1,10 @@
+MODE=start
+METHOD=dhcp
+SHLVL=0
+PHASE=post-up
+ADDRFAM=inet
+_=/tmp/gns3/bin/run-parts
+PATH=/gns3/bin:/tmp/gns3/bin:/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+IF_HOSTNAME=s23
+IFACE=eth2
+PWD=/
